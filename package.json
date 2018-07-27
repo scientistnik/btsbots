@@ -1,0 +1,27 @@
+{
+  "name": "btsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon --exec 'npm' run build --watch src",
+    "build": "babel src -d dist",
+    "start": "node dist"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-runtime": "^6.26.0",
+    "bignumber.js": "^7.2.1",
+    "btsdex": "^0.4.5",
+    "dotenv": "^6.0.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.3"
+  },
+  "author": "",
+  "license": "MIT"
+}
